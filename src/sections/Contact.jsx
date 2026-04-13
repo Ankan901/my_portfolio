@@ -1,4 +1,3 @@
-// src/sections/Contact.jsx
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Linkedin, Github, Send, User, MessageSquare } from 'lucide-react';
@@ -125,7 +124,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-white mb-4">Connect With Me</h3>
               <div className="space-y-4">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/ankan901/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
@@ -133,10 +132,10 @@ const Contact = () => {
                   <div className="p-2 rounded-lg bg-purple-600/20 group-hover:bg-purple-600/30 transition-colors">
                     <Linkedin size={20} />
                   </div>
-                  <span>LinkedIn Profile</span>
+                  <span>linkedin.com/in/ankan901</span>
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Ankan901"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group"
@@ -144,13 +143,13 @@ const Contact = () => {
                   <div className="p-2 rounded-lg bg-purple-600/20 group-hover:bg-purple-600/30 transition-colors">
                     <Github size={20} />
                   </div>
-                  <span>GitHub Portfolio</span>
+                  <span>github.com/Ankan901</span>
                 </a>
                 <div className="flex items-center gap-3 text-gray-300">
                   <div className="p-2 rounded-lg bg-purple-600/20">
                     <Mail size={20} />
                   </div>
-                  <span>Ankan.Karmakar@outlook.com</span>
+                  <span>ankan.karmakar@example.com</span>
                 </div>
               </div>
             </div>

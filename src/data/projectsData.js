@@ -1,4 +1,3 @@
-// src/data/projectsData.js
 export const projectsData = [
   {
     id: 1,
@@ -35,14 +34,14 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: 'Safety Validation App (Mobile)',
-    description: 'Mobile-responsive Power Apps solution for field safety validation checks with offline capabilities.',
-    techStack: ['Power Apps', 'Dataverse', 'Power Automate'],
-    impact: 'Real-time validation, 60% faster field inspections',
+    title: 'Node.js with Azure Container App - Automated PDF Report System',
+    description: 'Enterprise-grade automated PDF reporting system for machine risk assessment, deployed on Azure Container Apps with Node.js backend.',
+    techStack: ['Node.js', 'Azure Container Apps', 'Docker', 'PDF Generation'],
+    impact: 'Automated report generation, 70% faster document processing, real-time risk assessment',
     liveDemo: '#',
     github: '#',
-    challenge: 'Field teams needed offline access for safety checks in remote locations.',
-    solution: 'Built offline-capable canvas app with sync capabilities and automated alert system.',
+    challenge: 'Manual PDF report creation for machine risk assessments was slow and inconsistent.',
+    solution: 'Built Node.js microservice with PDF generation, containerized with Docker, deployed on Azure Container Apps with auto-scaling.',
   },
   {
     id: 5,

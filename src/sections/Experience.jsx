@@ -1,4 +1,3 @@
-// src/sections/Experience.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import TimelineItem from '../components/TimelineItem';
@@ -23,8 +22,10 @@ const Experience = () => {
         </motion.div>
 
         <div className="relative">
+          {/* Vertical line in the middle */}
           <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-purple-600 to-blue-600 hidden md:block"></div>
-          <div className="space-y-8">
+          
+          <div className="space-y-12">
             {timelineData.map((item, idx) => (
               <TimelineItem key={idx} item={item} index={idx} />
             ))}

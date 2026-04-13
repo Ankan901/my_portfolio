@@ -1,5 +1,4 @@
-// src/data/servicesData.js
-import { LayoutDashboard, Sparkles, Workflow } from 'lucide-react';
+import { LayoutDashboard, Sparkles, Workflow, Server } from 'lucide-react';
 
 export const servicesData = [
   {
@@ -19,5 +18,11 @@ export const servicesData = [
     title: 'Process Automation',
     description: 'End-to-end automation solutions using Power Automate',
     features: ['Approval workflows', 'Email automation', 'Data synchronization', 'Scheduled tasks'],
+  },
+  {
+    icon: Server,
+    title: 'Node.js & Azure App Development',
+    description: 'Scalable cloud-native applications and containerized solutions',
+    features: ['Node.js APIs', 'Azure Container Apps', 'Microservices', 'Cloud deployment'],
   },
 ];
